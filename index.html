@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Time - ちょっと一息しませんか？</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="images/logo.png" alt="Café Time">
+            </a>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="メニュー">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">ちょっと一息しませんか？</h1>
+            <p class="hero-subtitle">素敵な一時を</p>
+            <a href="#menu" class="cta-button">メニューを見る</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <i class="fas fa-coffee"></i>
+                    <h3>厳選された豆</h3>
+                    <p>世界中から選りすぐりの豆を使用しています</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-heart"></i>
+                    <h3>くつろぎの空間</h3>
+                    <p>ゆったりとした時間をお過ごしください</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-users"></i>
+                    <h3>笑顔の接客</h3>
+                    <p>スタッフ一同、心を込めてお迎えします</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- メニュー -->
+    <section id="menu" class="section">
+        <div class="container">
+            <h2 class="section-title">Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-category">
+                    <h3>Coffee</h3>
+                    <ul class="menu-list">
+                        <li>
+                            <span class="menu-item">ブレンドコーヒー</span>
+                            <span class="menu-price">¥500</span>
+                        </li>
+                        <li>
+                            <span class="menu-item">カフェラテ</span>
+                            <span class="menu-price">¥580</span>
+                        </li>
+                        <li>
+                            <span class="menu-item">カプチーノ</span>
+                            <span class="menu-price">¥580</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h3>Food</h3>
+                    <ul class="menu-list">
+                        <li>
+                            <span class="menu-item">ケーキセット</span>
+                            <span class="menu-price">¥980</span>
+                        </li>
+                        <li>
+                            <span class="menu-item">サンドイッチ</span>
+                            <span class="menu-price">¥780</span>
+                        </li>
+                        <li>
+                            <span class="menu-item">キッシュ</span>
+                            <span class="menu-price">¥880</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 料金プラン -->
+    <section id="price" class="section">
+        <div class="container">
+            <h2 class="section-title">Price Plans</h2>
+            <div class="price-cards">
+                <div class="price-card">
+                    <h3>Basic</h3>
+                    <div class="price">¥2,000</div>
+                    <ul>
+                        <li>ドリンク2杯</li>
+                        <li>ケーキ1品</li>
+                        <li>Wi-Fi利用可</li>
+                    </ul>
+                    <a href="#contact" class="price-button">お問い合わせ</a>
+                </div>
+                <div class="price-card popular">
+                    <h3>Standard</h3>
+                    <div class="price">¥3,500</div>
+                    <ul>
+                        <li>ドリンク4杯</li>
+                        <li>ケーキ2品</li>
+                        <li>Wi-Fi利用可</li>
+                        <li>優先予約</li>
+                    </ul>
+                    <a href="#contact" class="price-button">お問い合わせ</a>
+                </div>
+                <div class="price-card">
+                    <h3>Premium</h3>
+                    <div class="price">¥5,000</div>
+                    <ul>
+                        <li>ドリンク無制限</li>
+                        <li>ケーキ3品</li>
+                        <li>Wi-Fi利用可</li>
+                        <li>優先予約</li>
+                        <li>個室利用1時間</li>
+                    </ul>
+                    <a href="#contact" class="price-button">お問い合わせ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">送信する</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <img src="images/logo.png" alt="Café Time" class="footer-logo">
+                    <p>〒123-4567<br>東京都渋谷区カフェ通り1-2-3</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#price">Price</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Café Time. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- スクロールトップボタン -->
+    <button class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
